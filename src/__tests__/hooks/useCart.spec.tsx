@@ -254,7 +254,7 @@ describe('useCart Hook', () => {
     act(() => {
       result.current.removeProduct(productId);
     });
-
+ 
     expect(result.current.cart).toEqual(
       expect.arrayContaining([
         {
